@@ -1,0 +1,12 @@
+:root {
+
+  /* Fonts */
+  --font-family: "Roboto";
+  --second-family: "Pacifico";
+
+  /* Colors */
+
+  --main-color: rgba(255, 255, 255, 0.75);
+  --dark-color: #383a4c;
+  --bg-color: #f9f9f9;
+}
