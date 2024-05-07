@@ -1,0 +1,42 @@
+.footer {
+  padding: 45px 0;
+  background-color: #2f324b;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo__img {}
+
+.footer__copyright-desc {
+  max-width: 127px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.40625;
+  color: #fff;
+}
+
+.footer__desc {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.40625;
+  color: #fff;
+}
+
+.contacts {}
+
+.contacts__phone {}
+
+.contacts__link {}
