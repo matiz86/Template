@@ -71,4 +71,8 @@
   background-color: #15a9cb;
   border-radius: 50px;
   margin: 0 auto;
+  transition: background-color .3s ease-in-out;
+}
+.header__buttom-btn:hover{
+  background-color: #0e6f8f;
 }

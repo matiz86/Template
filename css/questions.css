@@ -75,6 +75,11 @@
   box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
   background-color: #15a9cb;
   margin-bottom: 50px;
+  transition: background-color .3s ease-in-out;
+}
+
+.questions__btn:hover {
+  background-color: #0e6f8f;
 }
 
 .questions__text {
