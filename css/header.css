@@ -1,3 +1,11 @@
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  margin-bottom: 120px;
+}
+
 .header {
   background-image: url("../img/bg.jpg");
   background-position: center;
@@ -25,26 +33,22 @@
   border-bottom: 1px solid var(--light-color);
 }
 
-.header__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 40px;
-  margin-bottom: 120px;
+.contacts__img {
+  display: none;
 }
 
 .header__bottom {
   padding-bottom: 120px;
 }
 
-.header__buttom-content {
+.header__bottom-content {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   max-width: 990px;
 }
 
-.header__buttom-title {
+.header__bottom-title {
   font-weight: 900;
   font-size: 52px;
   text-align: center;
@@ -52,7 +56,7 @@
   margin-bottom: 35px;
 }
 
-.header__buttom-desc {
+.header__bottom-desc {
   font-size: 22px;
   line-height: 1.40625;
   text-align: center;
@@ -60,11 +64,10 @@
   margin-bottom: 90px;
 }
 
-.header__buttom-btn {
+.header__bottom-btn {
   display: inline-block;
   padding: 12px 48px;
   font-weight: 500;
-  font-size: 20px;
   text-align: center;
   color: #fff;
   box-shadow: 0 4px 25px 0 rgba(21, 169, 203, 0.3);
@@ -73,6 +76,95 @@
   margin: 0 auto;
   transition: background-color .3s ease-in-out;
 }
-.header__buttom-btn:hover{
+
+.header__bottom-btn:hover {
   background-color: #0e6f8f;
+}
+
+@media(max-width: 1024px) {
+  .header__top {
+    padding-top: 26px;
+    margin-bottom: 70px;
+  }
+
+  .logo__img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .contacts {
+    row-gap: 4px;
+  }
+
+  .contacts__phone {
+    font-size: 21px;
+  }
+
+  .contacts__link {
+    font-size: 13px;
+  }
+
+  .header__bottom {
+    padding-bottom: 70px;
+  }
+
+  .header__bottom-content {
+    max-width: 780px;
+  }
+
+  .header__bottom-title {
+    font-size: 40px;
+    margin-bottom: 28px;
+  }
+
+  .header__bottom-desc {
+    font-size: 18px;
+    margin-bottom: 60px;
+  }
+}
+
+@media(max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .header__top {
+    padding-top: 15px;
+    margin-bottom: 65px;
+  }
+
+  .logo__img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .contacts {
+    display: none;
+  }
+
+  .contacts__img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #555a7b;
+  }
+  .header__bottom {
+    padding-bottom: 65px;
+  }
+
+  .header__bottom-content {
+    max-width: 290px;
+  }
+
+  .header__bottom-title {
+    font-size: 20px;
+    margin-bottom: 23px;
+  }
+
+
+  .header__bottom-desc {
+    font-size: 14px;
+    margin-bottom: 54px;
+  }
 }

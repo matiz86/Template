@@ -4,12 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="index.css" rel="stylesheet">
   <link rel="preload" href="fonts/roboto-v30-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/roboto-v30-cyrillic_latin-500.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/roboto-v30-cyrillic_latin-700.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/roboto-v30-cyrillic_latin-900.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/pacifico-v22-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="index.css" rel="stylesheet">
   <title>Template</title>
 </head>
 
@@ -25,15 +26,17 @@
           <a class="contacts__phone" href="tel:+79625561234">+7 (962) 556 - 1234</a>
           <a class="contacts__link" href="#questions">Перезвоните мне</a>
         </div>
+        <img class="contacts__img" src="img/phone.svg" alt="Изображение телефонной трубки" width="24" height="24"
+          loading="lazy" />
       </div>
       <div class="header__bottom">
-        <div class="header__buttom-content">
-          <h1 class="header__buttom-title">Заголовок c уникальным торговым предложение по системе 4U</h1>
-          <p class="header__buttom-desc">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру,
+        <div class="header__bottom-content">
+          <h1 class="header__bottom-title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+          <p class="header__bottom-desc">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру,
             верстальщику, вебмастеру
             сгенерировать несколько абзацев
             более менее осмысленного текста рыбы на&nbsp;русском языке, а&nbsp;начинающему.</p>
-          <button class="header__buttom-btn" type="button">Подробнее</button>
+          <button class="header__bottom-btn" type="button">Подробнее</button>
         </div>
       </div>
     </div>
@@ -49,38 +52,50 @@
             абзацев более менее осмысленного
             текста рыбы на русском языке, а начинающему оратору отточить.</p>
         </div>
-        <ol class="about__list">
+        <!-- Slider main container -->
+        <div class="swiper about__swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
 
-          <li class="about__item">
-            <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-            </svg>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <ol class="about__list">
+            <li class="about__item">
+              <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+              </svg>
 
-            <p class="about__text">Первое целевое преимущество</p>
-          </li>
-          <li class="about__item">
-            <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-            </svg>
+              <p class="about__text">Первое целевое преимущество</p>
+            </li>
+            <li class="about__item">
+              <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+              </svg>
 
-            <p class="about__text">Второе целевое преимущество</p>
-          </li>
-          <li class="about__item">
-            <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-            </svg>
+              <p class="about__text">Второе целевое преимущество</p>
+            </li>
+            <li class="about__item">
+              <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+              </svg>
 
-            <p class="about__text">Третье целевое преимущество</p>
-          </li>
-          <li class="about__item">
-            <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-            </svg>
+              <p class="about__text">Третье целевое преимущество</p>
+            </li>
+            <li class="about__item">
+              <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+              </svg>
 
-            <p class="about__text">Четвертое целевое преимущество</p>
-          </li>
-        </ol>
-      </div>
+              <p class="about__text">Четвертое целевое преимущество</p>
+            </li>
+          </ol>
+        </div>
     </section>
 
     <section class="questions" id="questions">
@@ -102,8 +117,10 @@
               <input class="questions__input" type="email" required name="mail" placeholder="E-mail">
             </label>
           </fieldset>
-          <button class="questions__btn" type="button">позвоните мне</button>
-          <p class="questions__text">Я&nbsp;даю своё <span>согласие</span> на&nbsp;обработку моих персональных данных.
+          <button class="questions__btn" type="button">Позвоните мне</button>
+          <p class="questions__text">Я&nbsp;даю своё <a class="question__text-link" href="#">согласие</a>
+            на&nbsp;обработку моих
+            персональных данных.
           </p>
         </div>
       </div>
@@ -116,7 +133,8 @@
       <div class="footer__inner">
         <div class="footer__copyright">
           <a class="logo" href="#">
-            <img class="logo__img" src="img/logo.svg" alt="Логотип сайта" width="68" height="68" loading="lazy" />
+            <img class="logo__img logo__img-footer" src="img/logo.svg" alt="Логотип сайта" width="68" height="68"
+              loading="lazy" />
           </a>
           <p class="footer__copyright-desc">
             &copy;&nbsp;2022&nbsp;XXXcompany.
@@ -127,11 +145,13 @@
           <a class="contacts__phone" href="tel:+79625561234">+7 (962) 556 - 1234</a>
           <a class="contacts__link" href="#questions">Перезвоните мне</a>
         </div>
+        <img class="contacts__img-footer" src="img/phone.svg" alt="Изображение телефонной трубки" width="24" height="24"
+          loading="lazy" />
       </div>
-
     </div>
   </footer>
-
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/slider.js"></script>
 </body>
 
 </html>

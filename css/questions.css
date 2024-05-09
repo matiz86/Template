@@ -5,8 +5,6 @@
   background-repeat: no-repeat;
 }
 
-.container {}
-
 .questions__inner {
   display: flex;
   flex-direction: column;
@@ -38,7 +36,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 513px;
+  max-width: 423px;
   margin-bottom: 50px;
 }
 
@@ -51,7 +49,7 @@
 }
 
 .questions__label:not(:last-child) {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .questions__input {
@@ -67,7 +65,6 @@
 
 .questions__btn {
   font-weight: 500;
-  font-size: 20px;
   text-align: center;
   color: var(--light-color);
   padding: 11px 38px;
@@ -83,13 +80,106 @@
 }
 
 .questions__text {
-  font-size: 20px;
   text-align: center;
   color: var(--light-color);
   padding-bottom: 70px;
 
-  span {
-    color: #4a76a8;
-    border-bottom: 1px solid #4a76a8;
+}
+
+.question__text-link {
+  color: #4a76a8;
+  border-bottom: 1px solid #4a76a8;
+}
+
+@media(max-width:1024px) {
+
+  .questions__info {
+    max-width: 475px;
+  }
+
+  .questions__title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .questions__desc {
+    font-size: 20px;
+  }
+
+  .questions__field {
+    max-width: 379px;
+  }
+
+  .questions__label {
+    border: 2px solid var(--light-color);
+    width: 379px;
+    height: 39px;
+  }
+
+  .questions__input {
+    font-size: 20px;
+    padding-left: 23px;
+  }
+
+  .questions__btn {
+    margin-bottom: 30px;
+  }
+
+  .questions__btn:hover {
+    background-color: #0e6f8f;
+  }
+
+  .questions__text {
+    font-size: 17px;
+    padding-bottom: 56px;
+  }
+}
+
+@media(max-width: 480px) {
+
+  .questions__info {
+    padding-top: 30px;
+    max-width: 290px;
+    margin-bottom: 35px;
+  }
+
+  .questions__title {
+    font-size: 20px;
+    margin-bottom: 11px;
+  }
+
+  .questions__desc {
+    font-size: 12px;
+  }
+
+  .questions__field {
+    max-width: 289px;
+    margin-bottom: 45px;
+  }
+
+  .questions__label {
+    border: 1px solid var(--light-color);
+    width: 289px;
+    height: 28px;
+  }
+
+  .questions__label:not(:last-child) {
+    margin-bottom: 15px;
+  }
+
+  .questions__input {
+    font-size: 14px;
+    height: 100%;
+    padding-left: 19px;
+  }
+
+  .questions__btn {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .questions__text {
+    font-size: 11px;
+    padding-bottom: 30px;
   }
 }
