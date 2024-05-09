@@ -9,7 +9,8 @@
   <link rel="preload" href="fonts/roboto-v30-cyrillic_latin-700.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/roboto-v30-cyrillic_latin-900.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/pacifico-v22-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
   <link href="index.css" rel="stylesheet">
   <title>Template</title>
 </head>
@@ -26,8 +27,11 @@
           <a class="contacts__phone" href="tel:+79625561234">+7 (962) 556 - 1234</a>
           <a class="contacts__link" href="#questions">Перезвоните мне</a>
         </div>
-        <img class="contacts__img" src="img/phone.svg" alt="Изображение телефонной трубки" width="24" height="24"
-          loading="lazy" />
+        <a class="contacts__link-hidden" href="#">
+          <img class="contacts__img" src="img/phone.svg" alt="Изображение телефонной трубки" width="24" height="24"
+            loading="lazy" />
+        </a>
+
       </div>
       <div class="header__bottom">
         <div class="header__bottom-content">
@@ -52,50 +56,70 @@
             абзацев более менее осмысленного
             текста рыбы на русском языке, а начинающему оратору отточить.</p>
         </div>
-        <!-- Slider main container -->
-        <div class="swiper about__swiper">
-          <!-- Additional required wrapper -->
-          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
 
-            <!-- If we need navigation buttons -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+        <ol class="about__list">
+          <li class="about__item">
+            <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+            </svg>
+
+            <p class="about__text">Первое целевое преимущество</p>
+          </li>
+          <li class="about__item">
+            <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+            </svg>
+
+            <p class="about__text">Второе целевое преимущество</p>
+          </li>
+          <li class="about__item">
+            <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+            </svg>
+
+            <p class="about__text">Третье целевое преимущество</p>
+          </li>
+          <li class="about__item">
+            <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+            </svg>
+
+            <p class="about__text">Четвертое целевое преимущество</p>
+          </li>
+        </ol>
+
+        <!-- <div id="mySlider" class="splide" aria-label="Splide Basic HTML Example">
+          <div class="splide__track">
+            <ol class="splide__list">
+              <li class="splide__slide">
+                <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+                </svg>
+
+              </li>
+              <li class="splide__slide">
+                <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+                </svg>
+                <p class="about__text">Второе целевое преимущество</p>
+              </li>
+              <li class="splide__slide">
+                <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+                </svg>
+
+                <p class="about__text">Третье целевое преимущество</p>
+              </li>
+              <li class="splide__slide">
+                <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
+                </svg>
+                <p class="about__text">Четвертое целевое преимущество</p>
+              </li>
+            </ol>
           </div>
-          <ol class="about__list">
-            <li class="about__item">
-              <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-              </svg>
-
-              <p class="about__text">Первое целевое преимущество</p>
-            </li>
-            <li class="about__item">
-              <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-              </svg>
-
-              <p class="about__text">Второе целевое преимущество</p>
-            </li>
-            <li class="about__item">
-              <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-              </svg>
-
-              <p class="about__text">Третье целевое преимущество</p>
-            </li>
-            <li class="about__item">
-              <svg width="123" height="122" viewBox="0 0 123 122" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="61.8184" cy="61" r="61" fill="#23C7EC" />
-              </svg>
-
-              <p class="about__text">Четвертое целевое преимущество</p>
-            </li>
-          </ol>
-        </div>
+        </div> -->
+      </div>
     </section>
 
     <section class="questions" id="questions">
@@ -150,8 +174,9 @@
       </div>
     </div>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="js/slider.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+  "></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

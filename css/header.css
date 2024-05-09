@@ -33,7 +33,7 @@
   border-bottom: 1px solid var(--light-color);
 }
 
-.contacts__img {
+.contacts__link-hidden {
   display: none;
 }
 
@@ -142,13 +142,14 @@
     display: none;
   }
 
-  .contacts__img {
+  .contacts__link-hidden {
     display: block;
     width: 24px;
     height: 24px;
     border-radius: 100%;
     background-color: #555a7b;
   }
+
   .header__bottom {
     padding-bottom: 65px;
   }
