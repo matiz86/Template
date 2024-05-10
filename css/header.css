@@ -142,6 +142,10 @@
     display: none;
   }
 
+  .contacts__phone {
+    padding-right: 6px;
+  }
+
   .contacts__link-hidden {
     display: block;
     width: 24px;
