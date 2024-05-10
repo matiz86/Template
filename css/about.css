@@ -70,6 +70,10 @@
   gap: 16px;
 }
 
+.swiper {
+  display: none;
+}
+
 .about__circle {
   width: 122px;
   height: 122px;
@@ -162,10 +166,37 @@
 
   .about__list {
     /* padding-bottom: 60px; */
-    display: none;
+    /* display: none; */
   }
 
-  .about__text {
-    font-size: 18px;
-  }
+  /* .swiper {
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* .swiper-wrapper {}
+
+  .swiper-slide {} */
+  /* 
+  .slider__circle {
+    width: 104px;
+    height: 104px;
+    border-radius: 100%;
+    background-color: #23c7ec;
+    padding: 22px 31px;
+
+    span {
+      font-weight: 500;
+      font-size: 52px;
+      line-height: 1.40625;
+      text-align: center;
+      color: #fff;
+    }
+
+    .slider__text {
+      font-size: 18px;
+    }
+  } */
 }

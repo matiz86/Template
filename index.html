@@ -11,6 +11,7 @@
   <link rel="preload" href="fonts/pacifico-v22-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
 " rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link href="index.css" rel="stylesheet">
   <title>Template</title>
 </head>
@@ -80,9 +81,43 @@
             <div class="about__circle">
               <span>4</span>
             </div>
-            <p class="about__text">Четвертое целевое преимущество</p>
+            <p class="slider__text">Четвертое целевое преимущество</p>
           </li>
         </ul>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="slider__circle">
+                <span>1</span>
+              </div>
+              <p class="slider__text">Первое целевое преимущество</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider__circle">
+                <span>2</span>
+              </div>
+              <p class="slider__text">Второе целевое преимущество</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider__circle">
+                <span>3</span>
+              </div>
+              <p class="slider__text">Третье целевое преимущество</p>
+            </div>
+            <div class="swiper-slide">
+              <div class="slider__circle">
+                <span>4</span>
+              </div>
+              <p class="about__text">Четвертое целевое преимущество</p>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
       </div>
     </section>
 
@@ -148,7 +183,7 @@
   </footer>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
