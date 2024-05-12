@@ -140,7 +140,7 @@
   }
 }
 
-@media(max-width:320px) {
+@media(max-width:480px) {
 
   .about__info {
     max-width: 286px;
