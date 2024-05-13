@@ -14,7 +14,7 @@
 .questions__info {
   padding-top: 70px;
   max-width: 513px;
-  margin-bottom: 50px;
+  margin-bottom: 47px;
 }
 
 .questions__title {
@@ -22,7 +22,7 @@
   font-size: 35px;
   text-align: center;
   color: var(--light-color);
-  margin-bottom: 17px;
+  margin-bottom: 7px;
 }
 
 .questions__desc {
@@ -37,7 +37,7 @@
   flex-direction: column;
   align-items: center;
   max-width: 423px;
-  margin-bottom: 50px;
+  margin-bottom: 53px;
 }
 
 .questions__input {
@@ -88,11 +88,12 @@
 
   .questions__info {
     max-width: 475px;
+    margin-bottom: 46px;
   }
 
   .questions__title {
     font-size: 32px;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
   }
 
   .questions__desc {
@@ -130,7 +131,7 @@
   .questions__info {
     padding-top: 30px;
     max-width: 290px;
-    margin-bottom: 35px;
+    margin-bottom: 33px;
   }
 
   .questions__title {
@@ -144,7 +145,7 @@
 
   .questions__field {
     max-width: 289px;
-    margin-bottom: 45px;
+    margin-bottom: 41px;
   }
 
   .questions__input {
@@ -161,7 +162,8 @@
 
   .questions__btn {
     font-size: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 29px;
+    padding: 10px 29px;
   }
 
   .questions__text {

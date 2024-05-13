@@ -15,14 +15,14 @@
   font-size: 35px;
   text-align: center;
   padding-top: 70px;
-  margin-bottom: 25px;
+  margin-bottom: 22px;
 }
 
 .about__subtitle {
   font-weight: 500;
   font-size: 22px;
   text-align: center;
-  margin: 0 auto 35px;
+  margin: 0 auto 27px;
   position: relative;
   width: 189px;
 }
@@ -51,7 +51,7 @@
   max-width: 724px;
   font-size: 18px;
   text-align: center;
-  margin: 0 auto 50px;
+  margin: 0 auto 59px;
 }
 
 .about__list {
@@ -68,10 +68,6 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
-}
-
-.swiper {
-  display: none;
 }
 
 .about__circle {
@@ -107,12 +103,12 @@
 
   .about__title {
     font-size: 32px;
-    margin-bottom: 23px;
+    margin-bottom: 15px;
   }
 
   .about__subtitle {
     font-size: 20px;
-    margin: 0 auto 33px;
+    margin: 0 auto 28px;
     width: 174px;
   }
 
@@ -125,7 +121,7 @@
 
   .about__item {
     max-width: 180px;
-    gap: 26px;
+    gap: 16px;
   }
 
   .about__text {
@@ -149,13 +145,21 @@
   .about__title {
     font-size: 20px;
     padding-top: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
   }
 
   .about__subtitle {
     font-size: 16px;
     margin: 0 auto 26px;
     width: 134px;
+  }
+
+  .about__subtitle:before {
+    width: 19px;
+  }
+
+  .about__subtitle:after {
+    width: 19px;
   }
 
   .about__desc {
@@ -165,38 +169,34 @@
   }
 
   .about__list {
-    padding-bottom: 60px;
-    /* display: none; */
-  }
-
-  /* .swiper {
-    padding-bottom: 60px;
+    padding-bottom: 105px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
-  .swiper-wrapper {}
+  .about__circle {
+    width: 109px;
+    height: 109px;
+    padding: 30px 38px;
+  }
 
-  .swiper-slide {}
+  span {
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 1.40625;
+    text-align: center;
+    color: #fff;
+  }
 
-  .slider__circle {
-    width: 104px;
-    height: 104px;
-    border-radius: 100%;
-    background-color: #23c7ec;
-    padding: 22px 31px;
+  .about__item {
+    max-width: 166px;
+    height: 182px;
+    gap: 19px;
+  }
 
-    span {
-      font-weight: 500;
-      font-size: 52px;
-      line-height: 1.40625;
-      text-align: center;
-      color: #fff;
-    }
-
-    .slider__text {
-      font-size: 18px;
-    }
-  } */
+  .about__text {
+    font-size: 18px;
+  }
 }

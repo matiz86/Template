@@ -73,6 +73,10 @@
 
 @media(max-width: 1024px) {
 
+  .row {
+    padding: 43px 0;
+  }
+
   .contacts__phone {
     font-size: 21px;
   }
@@ -95,7 +99,7 @@
 @media(max-width: 576px) {
 
   .logo {
-    margin-right: 8px;
+    margin-right: 20px;
   }
 
   .contacts__phone {
@@ -131,7 +135,15 @@
     line-height: 1.40625;
     color: #fff;
     opacity: 0.5;
-    padding: 15px 0;
+    padding: 20px 0;
     text-align: center;
+  }
+
+  .row {
+    padding: 21px 0;
+  }
+
+  .rights__text {
+    font-size: 8px;
   }
 }
