@@ -165,11 +165,11 @@
   }
 
   .about__list {
-    /* padding-bottom: 60px; */
-    display: none;
+    padding-bottom: 60px;
+    /* display: none; */
   }
 
-  .swiper {
+  /* .swiper {
     padding-bottom: 60px;
     display: flex;
     justify-content: center;
@@ -198,5 +198,5 @@
     .slider__text {
       font-size: 18px;
     }
-  }
+  } */
 }
