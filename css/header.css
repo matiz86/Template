@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 41px;
-  margin-bottom: 113px;
+  padding-top: 42px;
+  margin-bottom: 114px;
 }
 
 .header {
@@ -17,7 +17,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 3px;
 }
 
 .contacts__phone {
@@ -38,7 +37,7 @@
 }
 
 .header__bottom {
-  padding-bottom: 117px;
+  padding-bottom: 120px;
 }
 
 .header__bottom-content {
@@ -46,14 +45,16 @@
   flex-direction: column;
   margin: 0 auto;
   max-width: 990px;
+  letter-spacing: 0;
 }
 
 .header__bottom-title {
+  line-height: 1.23;
   font-weight: 900;
   font-size: 52px;
   text-align: center;
   color: rgba(255, 255, 255, 0.86);
-  margin-bottom: 15px;
+  margin-bottom: 31px;
 }
 
 .header__bottom-desc {

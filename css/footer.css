@@ -6,7 +6,7 @@
 .footer__container {}
 
 .row {
-  padding: 45px 0;
+  padding: 42px 0;
 }
 
 .footer__row {
@@ -56,6 +56,7 @@
 
 .author {
   flex: auto;
+  margin-right: 6px;
 }
 
 .author__text {

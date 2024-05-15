@@ -12,17 +12,18 @@
 }
 
 .questions__info {
-  padding-top: 70px;
+  padding-top: 66px;
   max-width: 513px;
-  margin-bottom: 47px;
+  margin-bottom: 46px;
 }
 
 .questions__title {
+  max-width: 489px;
   font-weight: 700;
   font-size: 35px;
   text-align: center;
   color: var(--light-color);
-  margin-bottom: 7px;
+  margin-bottom: 12px;
 }
 
 .questions__desc {
@@ -37,14 +38,14 @@
   flex-direction: column;
   align-items: center;
   max-width: 423px;
-  margin-bottom: 53px;
+  margin-bottom: 51px;
 }
 
 .questions__input {
   border: 1.38px solid var(--light-color);
   border-radius: 50px;
   width: 423px;
-  height: 44px;
+  height: 45px;
   font-weight: 400;
   font-size: 22px;
   color: rgba(255, 255, 255, 0.5);

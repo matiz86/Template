@@ -14,7 +14,7 @@
   font-weight: 700;
   font-size: 35px;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 66px;
   margin-bottom: 22px;
 }
 
@@ -24,13 +24,13 @@
   text-align: center;
   margin: 0 auto 27px;
   position: relative;
-  width: 189px;
+  width: 191px;
 }
 
 .about__subtitle:before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 37%;
   left: 0;
   width: 43px;
   height: 2px;
@@ -40,8 +40,8 @@
 .about__subtitle:after {
   content: "";
   position: absolute;
-  top: 50%;
-  right: 0;
+  top: 37%;
+  right: 2px;
   width: 43px;
   height: 2px;
   background-color: var(--dark-color);
@@ -59,7 +59,7 @@
   justify-content: center;
   gap: 50px;
   counter-reset: numList;
-  padding-bottom: 70px;
+  padding-bottom: 71px;
 }
 
 .about__item {
@@ -75,7 +75,7 @@
   height: 122px;
   border-radius: 100%;
   background-color: #23c7ec;
-  padding: 32px 44px;
+  padding: 37px 45px;
 
 
   span {
